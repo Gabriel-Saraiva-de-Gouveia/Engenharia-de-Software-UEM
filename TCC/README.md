@@ -35,13 +35,7 @@ O desempenho das ferramentas é calculado a partir de três métricas primárias
   *Onde $n$ representa o total de imagens testadas, $y_i$ indica a idade cronológica real no dataset e $\hat{y}_i$ corresponde à idade estimada pelo modelo.*
 
 ## 📂 Estrutura do Repositório e Execução
-Devido a restrições de processamento local, a infraestrutura deste projeto foi modulada para execução em nuvem através do **Google Colab** integrado ao Google Drive. 
-
-O código está estruturado em *Notebooks* independentes para garantir o isolamento das variáveis de ambiente de cada tecnologia:
-* `/notebooks/01_DeepFace_UTK.ipynb` - Experimento de acurácia base do DeepFace.
-* `/notebooks/02_MiVOLO_UTK.ipynb` - Experimento de acurácia base do MiVOLO.
-* `/notebooks/03_DEX_UTK.ipynb` - Experimento de acurácia base do modelo DEX.
-* `/notebooks/04_Testes_Seguranca_CelebDF.ipynb` - Injeção de ataques sintéticos (*deepfakes*).
+Em desenvolvimento
 
 **Como executar:**
 Importe os arquivos `.ipynb` diretamente para o seu ambiente do Google Colab. Certifique-se de realizar o download prévio dos *datasets*. Aqui, cabe ressaltar que a base de dados OULU-NPU deve ser solicitada formalmente e autorizada pelos pesquisadores que a desenvolveram.  alocando-os em uma pasta conectada ao seu Google Drive ou enviando diretamente para a sessão do Colab. O ambiente requer a instalação do Python 3.10+, PyTorch e dependências do OpenCV.
