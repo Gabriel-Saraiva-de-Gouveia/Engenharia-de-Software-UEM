@@ -173,7 +173,6 @@ TCC-Estimativa-Idade/
 │   │   ├── resultados_deepface_utkface_part1.csv
 │   │   ├── resultados_deepface_utkface_part2.csv
 │   │   ├── resultados_deepface_utkface_part3.csv
-│   │   └── resultados_deepface_utkface_part3_com_enforce_detection.csv
 │   │
 │   └── mivolo/
 │       ├── resultados_mivolo_utkface_part1.csv
